@@ -387,7 +387,7 @@ public:
 
         int endIndex = myUpperBound(endLog);
 
-        cout << "查詢日期於 " << startDate << " ~ " << endDate << " ，金額於 " << startVal << " ~ " << endVal << " 的帳目：" << endl << endl;
+        cout << "The query date is on" << startDate << " ~ " << endDate << " , the amount is equal to" << startVal << " ~ " << endVal << " Accounts:" << endl << endl;
 
         for(int i = startIndex; i < endIndex; i++)
         {
@@ -397,7 +397,7 @@ public:
             }
         }
 
-        cout << endl << "請按任意鍵繼續......";
+        cout << endl << "Please press any key to continue...";
         char input = _getch();
 
         system("cls");
@@ -1005,7 +1005,7 @@ int main()
                 cout << "2. Add new account" << endl;
                 cout << "3. Log out" << endl;
 
-
+                cout << "Please enter the command: ";
                 int action;
                 cin >> action;
 
@@ -1190,3 +1190,4 @@ int main()
     }
 
 }
+
